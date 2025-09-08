@@ -25,7 +25,7 @@ public class Menu {
         return tester.choixMenuPrincipal();
 
     }
-    public void demarrer  () {
+    public void start  () {
         while (continuer) {
             int choix = afficherMenuPrincipal();
             switch (choix) {
