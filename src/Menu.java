@@ -4,7 +4,6 @@ public class Menu {
     private Scanner scanner;
     private TesterEntrees tester;
     private boolean continuer = true;
-    private boolean modeIA;
 
     public Menu() {
         scanner = new Scanner(System.in);
@@ -32,12 +31,10 @@ public class Menu {
                 case 1:
                     Game jeu = new Game(false);
                     jeu.jouer();
-                    modeIA = false;
                     break;
                 case 2:
                     Game jeuIA = new Game(true);
                     jeuIA.jouer();
-                    modeIA = true;
                     break;
                 case 3:
                     continuer = false;
