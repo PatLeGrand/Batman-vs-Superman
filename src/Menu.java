@@ -47,12 +47,6 @@ public class Menu {
                     System.out.println("Choix invalide, veuillez réessayer.");
             }
         }
-
-
-
-    }
-    public boolean getModeIA() {
-        return modeIA;
     }
 }
 
